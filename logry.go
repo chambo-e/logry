@@ -1,3 +1,18 @@
+// Package logry is a simple wrapper around logrus and logrus_sentry
+//
+// It requires no configuration to be used, only an env var SENTRY_DSN
+//
+//     import (
+//         "github.com/chambo-e/logry"
+//     )
+//
+//     func main() {
+//         logry.Debugln("Will be printed on stdout except if APP_ENV=production")
+//         logry.Println("Will be printed on stdout")
+//         logry.Errorln("Will be printed on stderr and sent to Sentry")
+//         logry.Fatalln("Will be printed on stderr and sent to Sentry")
+//         logry.Panicln("Will be printed on stderr and sent to Sentry")
+//     }
 package logry
 
 import (
