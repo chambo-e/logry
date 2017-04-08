@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "ZKxETlJdB2XubMrZnXB0FQimVA8=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "10f801ebc38b33738c9d17d50860f484a0988ff5",
+			"revisionTime": "2017-03-17T14:32:14Z"
+		},
+		{
+			"checksumSHA1": "TbUu0oEcNoMuYbLJbnJkTOpZ/iw=",
+			"path": "github.com/certifi/gocertifi",
+			"revision": "03be5e6bb9874570ea7fb0961225d193cbc374c5",
+			"revisionTime": "2017-01-23T21:22:43Z"
+		},
+		{
+			"checksumSHA1": "oXQcH5aO8FCMgxm4MYlkeJXHgi4=",
+			"path": "github.com/evalphobia/logrus_sentry",
+			"revision": "f1b872156e4e636f872e5f5db78a17f6f3aa77a2",
+			"revisionTime": "2016-11-28T10:42:15Z"
+		},
+		{
+			"checksumSHA1": "3ur+hHXnLZOIghIdCBBMx9pbP4E=",
+			"path": "github.com/getsentry/raven-go",
+			"revision": "3f7439d3e74d88e21d196ba20eb61a5a958bc118",
+			"revisionTime": "2016-11-15T13:54:11Z"
+		},
+		{
+			"checksumSHA1": "ynJSWoF6v+3zMnh9R0QmmG6iGV8=",
+			"path": "github.com/pkg/errors",
+			"revision": "248dadf4e9068a0b3e79f02ed0a610d935de5302",
+			"revisionTime": "2016-10-29T09:36:37Z"
+		}
+	],
+	"rootPath": "github.com/chambo-e/logry"
+}
